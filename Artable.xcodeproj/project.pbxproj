@@ -17,6 +17,7 @@
 		5862B46D22B9265600A24509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5862B46B22B9265600A24509 /* Main.storyboard */; };
 		5862B47222B9265700A24509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5862B47022B9265700A24509 /* LaunchScreen.storyboard */; };
 		5862B47822B9279B00A24509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5862B45622B925B500A24509 /* Assets.xcassets */; };
+		5862B47A22B9323900A24509 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5862B47922B9323900A24509 /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		5862B46C22B9265600A24509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5862B47122B9265700A24509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5862B47322B9265700A24509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5862B47922B9323900A24509 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				5862B44F22B925B100A24509 /* AppDelegate.swift */,
 				5862B45122B925B100A24509 /* ViewController.swift */,
 				5862B45322B925B100A24509 /* Main.storyboard */,
+				5862B47922B9323900A24509 /* LoginStoryboard.storyboard */,
 				5862B45822B925B500A24509 /* LaunchScreen.storyboard */,
 				5862B45B22B925B500A24509 /* Info.plist */,
 			);
@@ -186,6 +189,7 @@
 				5862B45A22B925B500A24509 /* LaunchScreen.storyboard in Resources */,
 				5862B45722B925B500A24509 /* Assets.xcassets in Resources */,
 				5862B45522B925B100A24509 /* Main.storyboard in Resources */,
+				5862B47A22B9323900A24509 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
