@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		582B31E622C3602B004C7D9A /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582B31E422C3602B004C7D9A /* ProductDetailVC.swift */; };
+		582B31E722C3602B004C7D9A /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 582B31E522C3602B004C7D9A /* ProductDetailVC.xib */; };
+		582B31E822C3784A004C7D9A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B45122B925B100A24509 /* HomeVC.swift */; };
+		582B31E922C37B06004C7D9A /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830876122BCB45D00A4CDCA /* RoundedViews.swift */; };
+		582B31EA22C37B19004C7D9A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB760122BCA724006AC83E /* Constants.swift */; };
+		582B31EB22C37B1D004C7D9A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B48822BBDF5700A24509 /* Extensions.swift */; };
+		582B31EC22C37B51004C7D9A /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 582B31E522C3602B004C7D9A /* ProductDetailVC.xib */; };
+		582B31ED22C37B5C004C7D9A /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582B31E422C3602B004C7D9A /* ProductDetailVC.swift */; };
 		5830876222BCB45D00A4CDCA /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830876122BCB45D00A4CDCA /* RoundedViews.swift */; };
+		5830876622BD2E0200A4CDCA /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5830876422BD2E0200A4CDCA /* ForgotPasswordVC.swift */; };
+		5830876722BD2E0200A4CDCA /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5830876522BD2E0200A4CDCA /* ForgotPasswordVC.xib */; };
+		5841DD9C22BFA4D800A5C9D5 /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841DD9B22BFA4D800A5C9D5 /* Firebase+Utils.swift */; };
+		5841DD9D22BFA5FC00A5C9D5 /* Firebase+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841DD9B22BFA4D800A5C9D5 /* Firebase+Utils.swift */; };
+		5841DD9F22BFBBE900A5C9D5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841DD9E22BFBBE900A5C9D5 /* Category.swift */; };
+		5841DDA022BFBBF000A5C9D5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841DD9E22BFBBE900A5C9D5 /* Category.swift */; };
+		5841DDA322BFC90200A5C9D5 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841DDA122BFC90200A5C9D5 /* CategoryCell.swift */; };
+		5841DDA422BFC90200A5C9D5 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5841DDA122BFC90200A5C9D5 /* CategoryCell.swift */; };
+		5841DDA522BFC90200A5C9D5 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5841DDA222BFC90200A5C9D5 /* CategoryCell.xib */; };
+		5841DDA622BFC90200A5C9D5 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5841DDA222BFC90200A5C9D5 /* CategoryCell.xib */; };
 		5862B45022B925B100A24509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B44F22B925B100A24509 /* AppDelegate.swift */; };
-		5862B45222B925B100A24509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B45122B925B100A24509 /* ViewController.swift */; };
+		5862B45222B925B100A24509 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B45122B925B100A24509 /* HomeVC.swift */; };
 		5862B45522B925B100A24509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5862B45322B925B100A24509 /* Main.storyboard */; };
 		5862B45722B925B500A24509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5862B45622B925B500A24509 /* Assets.xcassets */; };
 		5862B45A22B925B500A24509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5862B45822B925B500A24509 /* LaunchScreen.storyboard */; };
 		5862B46822B9265600A24509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B46722B9265600A24509 /* AppDelegate.swift */; };
-		5862B46A22B9265600A24509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B46922B9265600A24509 /* ViewController.swift */; };
+		5862B46A22B9265600A24509 /* AdminHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B46922B9265600A24509 /* AdminHomeVC.swift */; };
 		5862B46D22B9265600A24509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5862B46B22B9265600A24509 /* Main.storyboard */; };
 		5862B47222B9265700A24509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5862B47022B9265700A24509 /* LaunchScreen.storyboard */; };
 		5862B47822B9279B00A24509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5862B45622B925B500A24509 /* Assets.xcassets */; };
@@ -24,6 +42,17 @@
 		5862B48422BBCAAD00A24509 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B48322BBCAAD00A24509 /* LoginVC.swift */; };
 		5862B48622BBCAC600A24509 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B48522BBCAC600A24509 /* RegisterVC.swift */; };
 		5862B48922BBDF5700A24509 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5862B48822BBDF5700A24509 /* Extensions.swift */; };
+		5870617122C09B7B00740598 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870617022C09B7B00740598 /* ProductsVC.swift */; };
+		5870617222C09B7B00740598 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870617022C09B7B00740598 /* ProductsVC.swift */; };
+		5870617422C09BE600740598 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870617322C09BE600740598 /* Product.swift */; };
+		5870617522C09BE600740598 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870617322C09BE600740598 /* Product.swift */; };
+		5870617822C09D8500740598 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870617622C09D8500740598 /* ProductCell.swift */; };
+		5870617922C09D8500740598 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870617622C09D8500740598 /* ProductCell.swift */; };
+		5870617A22C09D8500740598 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5870617722C09D8500740598 /* ProductCell.xib */; };
+		5870617B22C09D8500740598 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5870617722C09D8500740598 /* ProductCell.xib */; };
+		58A1683F22C48CD80075FCE2 /* AddEditCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A1683E22C48CD80075FCE2 /* AddEditCategoryVC.swift */; };
+		58A1684222C4D8520075FCE2 /* AdminProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A1684122C4D8520075FCE2 /* AdminProductsVC.swift */; };
+		58A1684422C4E3050075FCE2 /* AddEditProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A1684322C4E3050075FCE2 /* AddEditProductsVC.swift */; };
 		58CB760222BCA724006AC83E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB760122BCA724006AC83E /* Constants.swift */; };
 		5E83E377087A4927138ED735 /* Pods_Artable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 167F9A778BD45939C1B3C03A /* Pods_Artable.framework */; };
 		6D39345BE27081824541DE0D /* Pods_ArtableAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD91AA6904CAF11BADB4C6FC /* Pods_ArtableAdmin.framework */; };
@@ -34,17 +63,25 @@
 		19F00DEE671AB40953091117 /* Pods-Artable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.debug.xcconfig"; sourceTree = "<group>"; };
 		29EFB00CF87D961E5E9F238E /* Pods-ArtableAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtableAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin.debug.xcconfig"; sourceTree = "<group>"; };
 		383B22B1F2FB89D9A19B2B9E /* Pods-ArtableAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtableAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		582B31E422C3602B004C7D9A /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		582B31E522C3602B004C7D9A /* ProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailVC.xib; sourceTree = "<group>"; };
 		5830876122BCB45D00A4CDCA /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		5830876422BD2E0200A4CDCA /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		5830876522BD2E0200A4CDCA /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		5841DD9B22BFA4D800A5C9D5 /* Firebase+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase+Utils.swift"; sourceTree = "<group>"; };
+		5841DD9E22BFBBE900A5C9D5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		5841DDA122BFC90200A5C9D5 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		5841DDA222BFC90200A5C9D5 /* CategoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
 		5862B44C22B925B100A24509 /* Artable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5862B44F22B925B100A24509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5862B45122B925B100A24509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5862B45122B925B100A24509 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		5862B45422B925B100A24509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5862B45622B925B500A24509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5862B45922B925B500A24509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5862B45B22B925B500A24509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5862B46522B9265600A24509 /* ArtableAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtableAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5862B46722B9265600A24509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5862B46922B9265600A24509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5862B46922B9265600A24509 /* AdminHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeVC.swift; sourceTree = "<group>"; };
 		5862B46C22B9265600A24509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5862B47122B9265700A24509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5862B47322B9265700A24509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +91,13 @@
 		5862B48322BBCAAD00A24509 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		5862B48522BBCAC600A24509 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		5862B48822BBDF5700A24509 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5870617022C09B7B00740598 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		5870617322C09BE600740598 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5870617622C09D8500740598 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		5870617722C09D8500740598 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProductCell.xib; path = ../View/ProductCell.xib; sourceTree = "<group>"; };
+		58A1683E22C48CD80075FCE2 /* AddEditCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCategoryVC.swift; sourceTree = "<group>"; };
+		58A1684122C4D8520075FCE2 /* AdminProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProductsVC.swift; sourceTree = "<group>"; };
+		58A1684322C4E3050075FCE2 /* AddEditProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditProductsVC.swift; sourceTree = "<group>"; };
 		58CB760122BCA724006AC83E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7891B4A0AE12BDDE1A228B5E /* Pods-Artable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.release.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.release.xcconfig"; sourceTree = "<group>"; };
 		BD91AA6904CAF11BADB4C6FC /* Pods_ArtableAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtableAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +132,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5830876322BD2DCC00A4CDCA /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				5830876522BD2E0200A4CDCA /* ForgotPasswordVC.xib */,
+				582B31E522C3602B004C7D9A /* ProductDetailVC.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		5841DDA722BFC92800A5C9D5 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				5841DDA222BFC90200A5C9D5 /* CategoryCell.xib */,
+				5870617722C09D8500740598 /* ProductCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 		5862B44322B925B100A24509 = {
 			isa = PBXGroup;
 			children = (
@@ -112,7 +174,7 @@
 		5862B44E22B925B100A24509 /* Artable */ = {
 			isa = PBXGroup;
 			children = (
-				5862B48122BBCA0300A24509 /* Model */,
+				5830876322BD2DCC00A4CDCA /* Xibs */,
 				5862B48022BBC9FB00A24509 /* View */,
 				5862B47F22BBC9EB00A24509 /* Controller */,
 				5862B48222BBCA6300A24509 /* Storyboards */,
@@ -125,8 +187,7 @@
 		5862B46622B9265600A24509 /* ArtableAdmin */ = {
 			isa = PBXGroup;
 			children = (
-				5862B46722B9265600A24509 /* AppDelegate.swift */,
-				5862B46922B9265600A24509 /* ViewController.swift */,
+				58A1684022C48CE80075FCE2 /* Controller */,
 				5862B46B22B9265600A24509 /* Main.storyboard */,
 				5862B47022B9265700A24509 /* LaunchScreen.storyboard */,
 				5862B47322B9265700A24509 /* Info.plist */,
@@ -138,6 +199,8 @@
 		5862B47722B9276C00A24509 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5841DDA722BFC92800A5C9D5 /* Xibs */,
+				5862B48122BBCA0300A24509 /* Model */,
 				58CB760322BCB42E006AC83E /* View */,
 				5862B48722BBDF2900A24509 /* Utils */,
 				5862B45622B925B500A24509 /* Assets.xcassets */,
@@ -150,8 +213,9 @@
 			children = (
 				5862B48322BBCAAD00A24509 /* LoginVC.swift */,
 				5862B48522BBCAC600A24509 /* RegisterVC.swift */,
-				5862B45122B925B100A24509 /* ViewController.swift */,
+				5862B45122B925B100A24509 /* HomeVC.swift */,
 				5862B44F22B925B100A24509 /* AppDelegate.swift */,
+				5870617022C09B7B00740598 /* ProductsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +223,8 @@
 		5862B48022BBC9FB00A24509 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5830876422BD2E0200A4CDCA /* ForgotPasswordVC.swift */,
+				582B31E422C3602B004C7D9A /* ProductDetailVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -166,8 +232,11 @@
 		5862B48122BBCA0300A24509 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5841DD9E22BFBBE900A5C9D5 /* Category.swift */,
+				5870617322C09BE600740598 /* Product.swift */,
 			);
-			path = Model;
+			name = Model;
+			path = ../Artable/Model;
 			sourceTree = "<group>";
 		};
 		5862B48222BBCA6300A24509 /* Storyboards */ = {
@@ -185,14 +254,29 @@
 			children = (
 				5862B48822BBDF5700A24509 /* Extensions.swift */,
 				58CB760122BCA724006AC83E /* Constants.swift */,
+				5841DD9B22BFA4D800A5C9D5 /* Firebase+Utils.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		58A1684022C48CE80075FCE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58A1684322C4E3050075FCE2 /* AddEditProductsVC.swift */,
+				58A1683E22C48CD80075FCE2 /* AddEditCategoryVC.swift */,
+				5862B46922B9265600A24509 /* AdminHomeVC.swift */,
+				5862B46722B9265600A24509 /* AppDelegate.swift */,
+				58A1684122C4D8520075FCE2 /* AdminProductsVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		58CB760322BCB42E006AC83E /* View */ = {
 			isa = PBXGroup;
 			children = (
 				5830876122BCB45D00A4CDCA /* RoundedViews.swift */,
+				5841DDA122BFC90200A5C9D5 /* CategoryCell.swift */,
+				5870617622C09D8500740598 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -292,9 +376,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5862B45A22B925B500A24509 /* LaunchScreen.storyboard in Resources */,
+				5870617A22C09D8500740598 /* ProductCell.xib in Resources */,
+				5841DDA522BFC90200A5C9D5 /* CategoryCell.xib in Resources */,
 				5862B45722B925B500A24509 /* Assets.xcassets in Resources */,
 				5862B47C22B94AD100A24509 /* GoogleService-Info.plist in Resources */,
 				5862B45522B925B100A24509 /* Main.storyboard in Resources */,
+				582B31E722C3602B004C7D9A /* ProductDetailVC.xib in Resources */,
+				5830876722BD2E0200A4CDCA /* ForgotPasswordVC.xib in Resources */,
 				5862B47A22B9323900A24509 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,10 +391,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5841DDA622BFC90200A5C9D5 /* CategoryCell.xib in Resources */,
 				5862B47222B9265700A24509 /* LaunchScreen.storyboard in Resources */,
 				5862B47E22B94CF400A24509 /* GoogleService-Info.plist in Resources */,
+				5870617B22C09D8500740598 /* ProductCell.xib in Resources */,
 				5862B47822B9279B00A24509 /* Assets.xcassets in Resources */,
 				5862B46D22B9265600A24509 /* Main.storyboard in Resources */,
+				582B31EC22C37B51004C7D9A /* ProductDetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +439,6 @@
 				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -362,7 +452,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -432,13 +521,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5841DD9C22BFA4D800A5C9D5 /* Firebase+Utils.swift in Sources */,
+				582B31E622C3602B004C7D9A /* ProductDetailVC.swift in Sources */,
+				5841DD9F22BFBBE900A5C9D5 /* Category.swift in Sources */,
 				5862B48922BBDF5700A24509 /* Extensions.swift in Sources */,
-				5862B45222B925B100A24509 /* ViewController.swift in Sources */,
+				5862B45222B925B100A24509 /* HomeVC.swift in Sources */,
 				5862B48622BBCAC600A24509 /* RegisterVC.swift in Sources */,
+				5870617822C09D8500740598 /* ProductCell.swift in Sources */,
 				5862B45022B925B100A24509 /* AppDelegate.swift in Sources */,
 				5830876222BCB45D00A4CDCA /* RoundedViews.swift in Sources */,
 				5862B48422BBCAAD00A24509 /* LoginVC.swift in Sources */,
+				5870617122C09B7B00740598 /* ProductsVC.swift in Sources */,
+				5830876622BD2E0200A4CDCA /* ForgotPasswordVC.swift in Sources */,
 				58CB760222BCA724006AC83E /* Constants.swift in Sources */,
+				5841DDA322BFC90200A5C9D5 /* CategoryCell.swift in Sources */,
+				5870617422C09BE600740598 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +543,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5862B46A22B9265600A24509 /* ViewController.swift in Sources */,
+				5841DD9D22BFA5FC00A5C9D5 /* Firebase+Utils.swift in Sources */,
+				582B31EA22C37B19004C7D9A /* Constants.swift in Sources */,
+				5862B46A22B9265600A24509 /* AdminHomeVC.swift in Sources */,
+				582B31E922C37B06004C7D9A /* RoundedViews.swift in Sources */,
+				5870617222C09B7B00740598 /* ProductsVC.swift in Sources */,
+				582B31E822C3784A004C7D9A /* HomeVC.swift in Sources */,
 				5862B46822B9265600A24509 /* AppDelegate.swift in Sources */,
+				58A1684222C4D8520075FCE2 /* AdminProductsVC.swift in Sources */,
+				582B31EB22C37B1D004C7D9A /* Extensions.swift in Sources */,
+				58A1683F22C48CD80075FCE2 /* AddEditCategoryVC.swift in Sources */,
+				5841DDA022BFBBF000A5C9D5 /* Category.swift in Sources */,
+				5870617922C09D8500740598 /* ProductCell.swift in Sources */,
+				5841DDA422BFC90200A5C9D5 /* CategoryCell.swift in Sources */,
+				582B31ED22C37B5C004C7D9A /* ProductDetailVC.swift in Sources */,
+				58A1684422C4E3050075FCE2 /* AddEditProductsVC.swift in Sources */,
+				5870617522C09BE600740598 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,6 +724,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QKHU8FT2PB;
 				INFOPLIST_FILE = Artable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -632,6 +744,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QKHU8FT2PB;
 				INFOPLIST_FILE = Artable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -651,6 +764,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QKHU8FT2PB;
 				INFOPLIST_FILE = ArtableAdmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -670,6 +784,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QKHU8FT2PB;
 				INFOPLIST_FILE = ArtableAdmin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

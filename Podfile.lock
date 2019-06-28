@@ -5,7 +5,6 @@ PODS:
   - BoringSSL-GRPC/Implementation (0.0.3):
     - BoringSSL-GRPC/Interface (= 0.0.3)
   - BoringSSL-GRPC/Interface (0.0.3)
-  - CropViewController (2.5.0)
   - Firebase/Auth (6.1.0):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 6.1.0)
@@ -122,7 +121,6 @@ PODS:
   - Stripe (15.0.1)
 
 DEPENDENCIES:
-  - CropViewController
   - Firebase/Auth (= 6.1.0)
   - Firebase/Core (= 6.1.0)
   - Firebase/Firestore (= 6.1.0)
@@ -135,7 +133,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BoringSSL-GRPC
-    - CropViewController
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -159,7 +156,6 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
-  CropViewController: 6c962d6fb264cc5cb325b622d5029d50c6c43e72
   Firebase: 8d77bb33624ae9b62d745d82ec023de5f70f7e4f
   FirebaseAnalytics: 629301c2b9925f3537d4093a17a72751ae5b7084
   FirebaseAuth: 80879f0e9f2c5f40686d5b42f6ccb3cd5dce78ea
@@ -181,6 +177,6 @@ SPEC CHECKSUMS:
   Protobuf: 3f617b9a6e73605565086864c9bc26b2bf2dd5a3
   Stripe: 2c4d0a88817361a102886315ff452d90f65e898b
 
-PODFILE CHECKSUM: 9c6b9d4d585e609f946d7a55f94c01f44ec53085
+PODFILE CHECKSUM: 82885a064d0bfbbcd765cbc151a922cabd709240
 
 COCOAPODS: 1.5.3

@@ -10,16 +10,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="j4l-IH-GLa">
             <objects>
-                <viewController id="6I7-Z4-zC4" sceneMemberID="viewController">
+                <viewController id="6I7-Z4-zC4" customClass="LoginVC" customModule="Artable" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OPz-Te-gOQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_left1" translatesAutoresizingMaskIntoConstraints="NO" id="yeM-CV-ZTQ">
-                                <rect key="frame" x="0.0" y="88" width="414.00000000000045" height="808"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="flA-7I-1U0">
                                 <rect key="frame" x="20" y="108" width="374" height="325.5"/>
@@ -37,7 +37,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" textContentType="email"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6eZ-ai-apB">
                                         <rect key="frame" x="0.0" y="86.5" width="374" height="40"/>
@@ -46,7 +46,7 @@
                                         </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2E-eD-cYD">
                                         <rect key="frame" x="0.0" y="138.5" width="374" height="31"/>
@@ -54,6 +54,9 @@
                                         <state key="normal" title="Forgot password">
                                             <color key="titleColor" red="0.83529411764705885" green="0.39215686274509803" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="forgotPassClicked:" destination="6I7-Z4-zC4" eventType="touchUpInside" id="uKW-DK-TUo"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxV-gD-4kc" customClass="RoundedButton" customModule="Artable" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="181.5" width="374" height="40"/>
@@ -65,6 +68,9 @@
                                         <state key="normal" title="Log In">
                                             <color key="titleColor" red="0.95294117647058818" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginClicked:" destination="6I7-Z4-zC4" eventType="touchUpInside" id="J1n-Gf-TNH"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qB-ow-6Yn" customClass="RoundedButton" customModule="Artable" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="233.5" width="374" height="40"/>
@@ -90,6 +96,9 @@
                                         <state key="normal" title="Continue as guest">
                                             <color key="titleColor" red="0.95294117649999999" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="guestClicked:" destination="6I7-Z4-zC4" eventType="touchUpInside" id="IRF-vv-tVh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -113,6 +122,11 @@
                         <viewLayoutGuide key="safeArea" id="fJw-iD-v91"/>
                     </view>
                     <navigationItem key="navigationItem" id="blL-cf-iUF"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="ZEC-Op-bId" id="zJw-L3-dAN"/>
+                        <outlet property="emailTxt" destination="CGa-iZ-xbZ" id="hFF-Sh-UcV"/>
+                        <outlet property="passTxt" destination="6eZ-ai-apB" id="Nze-yx-BGR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BkR-ZN-6um" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

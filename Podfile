@@ -26,5 +26,4 @@ target 'ArtableAdmin' do
 
   # Pods for ArtableAdmin
 shared_pods
-pod 'CropViewController'
 end
