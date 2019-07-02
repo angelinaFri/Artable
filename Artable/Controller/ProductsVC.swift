@@ -10,7 +10,6 @@ import UIKit
 import FirebaseFirestore
 
 class ProductsVC: UIViewController, ProductCellDelegate {
-   
 
     // 1
     @IBOutlet weak var tableView: UITableView!
@@ -74,6 +73,10 @@ class ProductsVC: UIViewController, ProductCellDelegate {
         // finds one that matches and then returns that index
         guard let index = products.firstIndex(of: product) else { return }
         tableView.reloadRows(at: [IndexPath(row: index, section: 0)], with: .automatic)
+    }
+
+    func productAddToCart(product: Product) {
+        StripeCart.addItemToCart(item: product)
     }
 }
 // 3

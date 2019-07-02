@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CheckoutVC: UIViewController {
+class CheckoutVC: UIViewController, CartItemDelegate {
 
 
     @IBOutlet weak var tableView: UITableView!
@@ -48,6 +48,12 @@ class CheckoutVC: UIViewController {
     
     @IBAction func shippingMethodClicked(_ sender: Any) {
     }
+
+    func removeItem(product: Product) {
+        StripeCart.removeItemFromCart(item: product)
+        tableView.reloadData()
+        setupPaymentInfo()
+    }
 }
 
 extension CheckoutVC: UITableViewDelegate, UITableViewDataSource {
@@ -59,7 +65,7 @@ extension CheckoutVC: UITableViewDelegate, UITableViewDataSource {
         if let cell = tableView.dequeueReusableCell(withIdentifier: Identifiers.CartItemCell, for: indexPath) as? CartItemCell {
 
             let product = StripeCart.cartItems[indexPath.row]
-            cell.configureCell(product: product)
+            cell.configureCell(product: product, delegate: self)
 
             return cell
         }
