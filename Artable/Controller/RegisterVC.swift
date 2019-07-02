@@ -73,19 +73,56 @@ class RegisterVC: UIViewController {
 
         activityIndicator.startAnimating()
 
+//        Auth.auth().createUser(withEmail: email, password: password) { (result, error) in
+//            if let error = error {
+//                debugPrint(error)
+//                Auth.auth().handleFireAuthError(error: error, vc: self)
+//                return
+//            }
+//
+//        //documentId = uid of authenticated user
+//            guard let firUser = result?.user else { return }
+//            let artUser = User.init(id: firUser.uid, email: email, username: username, stripeId: "")
+//        //Ready for uploading to Firestore
+//            self.createFirestoreUser(user: artUser)
+//        }
+
         // we manually create user and link it with anonymous one /that was logged in already
 
         guard let authUser = Auth.auth().currentUser else { return }
-        
+
         let credential = EmailAuthProvider.credential(withEmail: email, password: password)
-        authUser.linkAndRetrieveData(with: credential) { (result, error) in
+        authUser.link(with: credential) { (result, error) in
             if let error = error {
                 debugPrint(error)
                 Auth.auth().handleFireAuthError(error: error, vc: self)
                 return
             }
+            //documentId = uid of authenticated user
+            guard let firUser = result?.user else { return }
+            let artUser = User.init(id: firUser.uid, email: email, username: username, stripeId: "")
+            //Ready for uploading to Firestore
+            self.createFirestoreUser(user: artUser)
+        }
+
+    }
+
+    func createFirestoreUser(user: User) {
+        // Step 1: Create document reference
+        let newUserRef = Firestore.firestore().collection("users").document(user.id)
+
+        // Step 2: Create model data
+        let data = User.modelToData(user: user)
+
+        // Step 3: Upload to Firestore
+        newUserRef.setData(data) { (error) in
+            if let error = error {
+                Auth.auth().handleFireAuthError(error: error, vc: self)
+                debugPrint("Unable to upload new user document \(error.localizedDescription)")
+            } else {
+                self.dismiss(animated: true, completion: nil)
+            }
             self.activityIndicator.stopAnimating()
-            self.dismiss(animated: true, completion: nil)
         }
 
     }
