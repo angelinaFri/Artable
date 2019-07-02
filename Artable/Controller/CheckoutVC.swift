@@ -22,12 +22,22 @@ class CheckoutVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupTableView()
+        setupPaymentInfo()
 
+    }
+
+    func setupTableView() {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UINib(nibName: Identifiers.CartItemCell, bundle: nil), forCellReuseIdentifier: Identifiers.CartItemCell)
+    }
 
-
+    func setupPaymentInfo() {
+        subtotalLbl.text = StripeCart.subtotal.penniesToFormattedCurrency()
+        processingFeeLbl.text = StripeCart.processingFees.penniesToFormattedCurrency()
+        shippingCostLbl.text = StripeCart.shippingFees.penniesToFormattedCurrency()
+        totalLbl.text = StripeCart.total.penniesToFormattedCurrency()
     }
     
     @IBAction func placeOrderClicked(_ sender: Any) {
