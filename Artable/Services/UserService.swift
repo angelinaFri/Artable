@@ -68,6 +68,25 @@ final class _Userservice {
         })
     }
 
+    func favoriteSelected(product: Product) {
+        let favsRef = Firestore.firestore().collection("users").document(user.id).collection("favorites")
+
+        if favorites.contains(product) {
+            //we remove it as a favorite
+            favorites.removeAll{ $0 == product }
+            // $0 -> any product in the favorites that is equal to the product
+            // that has been selectet will be removed
+            favsRef.document(product.id).delete()
+            // deleting from the user's favorites subcollection
+        } else {
+            //add as a favorite
+            favorites.append(product) // to local collection
+            let data = Product.modelToData(product: product) // as a new doc to subcollection
+            favsRef.document(product.id).setData(data)
+        }
+
+    }
+
     func logoutUser() {
         //reset some defaults here
         userListener?.remove()
