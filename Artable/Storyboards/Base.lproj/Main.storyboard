@@ -64,7 +64,6 @@
                                     <segue destination="EqW-PH-EV1" kind="show" id="tdL-UG-ClA"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="bar_button_cart" id="Kp8-DI-Oqe"/>
                             <barButtonItem image="bar_button_star" id="Wpq-bb-bbn">
                                 <connections>
                                     <action selector="favoritesClicked:" destination="BYZ-38-t0r" id="KJz-xy-Ipa"/>
@@ -240,7 +239,7 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7GX-sW-QJp">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7GX-sW-QJp">
                                 <rect key="frame" x="20" y="108" width="374" height="425"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
@@ -350,6 +349,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="68H-32-E4q"/>
-        <segue reference="2gF-nD-tzD"/>
+        <segue reference="tdL-UG-ClA"/>
     </inferredMetricsTieBreakers>
 </document>
