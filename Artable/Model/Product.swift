@@ -64,3 +64,11 @@ struct Product {
         return data
     }
 }
+
+extension Product: Equatable {
+    // lhd = left-hand side
+    // func compare two object based on described criteria
+    static func ==(lhs: Product, rhs: Product) -> Bool {
+        return lhs.id == rhs.id
+    }
+}

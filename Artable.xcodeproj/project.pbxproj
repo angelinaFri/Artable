@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580278CE22CA59340056B7EB /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580278CD22CA59340056B7EB /* CheckoutVC.swift */; };
+		580278D122CA668F0056B7EB /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580278CF22CA668F0056B7EB /* CartItemCell.swift */; };
+		580278D222CA668F0056B7EB /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 580278D022CA668F0056B7EB /* CartItemCell.xib */; };
 		582AABEE22C8B6980049E714 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582AABED22C8B6980049E714 /* User.swift */; };
 		582B31E622C3602B004C7D9A /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582B31E422C3602B004C7D9A /* ProductDetailVC.swift */; };
 		582B31E722C3602B004C7D9A /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 582B31E522C3602B004C7D9A /* ProductDetailVC.xib */; };
@@ -65,6 +68,9 @@
 		19F00DEE671AB40953091117 /* Pods-Artable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Artable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Artable/Pods-Artable.debug.xcconfig"; sourceTree = "<group>"; };
 		29EFB00CF87D961E5E9F238E /* Pods-ArtableAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtableAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin.debug.xcconfig"; sourceTree = "<group>"; };
 		383B22B1F2FB89D9A19B2B9E /* Pods-ArtableAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtableAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArtableAdmin/Pods-ArtableAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		580278CD22CA59340056B7EB /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
+		580278CF22CA668F0056B7EB /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CartItemCell.swift; path = ../Xibs/CartItemCell.swift; sourceTree = "<group>"; };
+		580278D022CA668F0056B7EB /* CartItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartItemCell.xib; sourceTree = "<group>"; };
 		582AABED22C8B6980049E714 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		582B31E422C3602B004C7D9A /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
 		582B31E522C3602B004C7D9A /* ProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailVC.xib; sourceTree = "<group>"; };
@@ -136,6 +142,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		580278D322CB1C5B0056B7EB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		582AABEF22C8E17C0049E714 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +162,7 @@
 			children = (
 				5830876522BD2E0200A4CDCA /* ForgotPasswordVC.xib */,
 				582B31E522C3602B004C7D9A /* ProductDetailVC.xib */,
+				580278D022CA668F0056B7EB /* CartItemCell.xib */,
 			);
 			path = Xibs;
 			sourceTree = "<group>";
@@ -186,6 +200,7 @@
 		5862B44E22B925B100A24509 /* Artable */ = {
 			isa = PBXGroup;
 			children = (
+				580278D322CB1C5B0056B7EB /* New Group */,
 				582AABEF22C8E17C0049E714 /* Services */,
 				5830876322BD2DCC00A4CDCA /* Xibs */,
 				5862B48022BBC9FB00A24509 /* View */,
@@ -229,6 +244,7 @@
 				5862B45122B925B100A24509 /* HomeVC.swift */,
 				5862B44F22B925B100A24509 /* AppDelegate.swift */,
 				5870617022C09B7B00740598 /* ProductsVC.swift */,
+				580278CD22CA59340056B7EB /* CheckoutVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -238,6 +254,7 @@
 			children = (
 				5830876422BD2E0200A4CDCA /* ForgotPasswordVC.swift */,
 				582B31E422C3602B004C7D9A /* ProductDetailVC.swift */,
+				580278CF22CA668F0056B7EB /* CartItemCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -397,6 +414,7 @@
 				5862B45522B925B100A24509 /* Main.storyboard in Resources */,
 				582B31E722C3602B004C7D9A /* ProductDetailVC.xib in Resources */,
 				5830876722BD2E0200A4CDCA /* ForgotPasswordVC.xib in Resources */,
+				580278D222CA668F0056B7EB /* CartItemCell.xib in Resources */,
 				5862B47A22B9323900A24509 /* LoginStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,9 +565,11 @@
 				5862B45022B925B100A24509 /* AppDelegate.swift in Sources */,
 				5830876222BCB45D00A4CDCA /* RoundedViews.swift in Sources */,
 				5862B48422BBCAAD00A24509 /* LoginVC.swift in Sources */,
+				580278CE22CA59340056B7EB /* CheckoutVC.swift in Sources */,
 				5870617122C09B7B00740598 /* ProductsVC.swift in Sources */,
 				5830876622BD2E0200A4CDCA /* ForgotPasswordVC.swift in Sources */,
 				58CB760222BCA724006AC83E /* Constants.swift in Sources */,
+				580278D122CA668F0056B7EB /* CartItemCell.swift in Sources */,
 				5841DDA322BFC90200A5C9D5 /* CategoryCell.swift in Sources */,
 				5870617422C09BE600740598 /* Product.swift in Sources */,
 			);
