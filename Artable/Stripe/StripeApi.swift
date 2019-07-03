@@ -10,6 +10,8 @@ import Foundation
 import Stripe
 import FirebaseFunctions
 
+let StripeApi = _StripeApi()
+
 class _StripeApi: NSObject, STPCustomerEphemeralKeyProvider {
 
     // for creating customer key to contact and then invoke our cloud function
