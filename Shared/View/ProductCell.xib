@@ -29,10 +29,10 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ap6-CQ-xqq">
-                                <rect key="frame" x="560" y="8" width="30" height="30"/>
+                                <rect key="frame" x="565" y="8" width="25" height="25"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="LLR-PB-LTY"/>
-                                    <constraint firstAttribute="width" constant="30" id="l9D-xm-d6w"/>
+                                    <constraint firstAttribute="height" constant="25" id="LLR-PB-LTY"/>
+                                    <constraint firstAttribute="width" constant="25" id="l9D-xm-d6w"/>
                                 </constraints>
                                 <state key="normal" image="empty_star"/>
                                 <connections>
@@ -42,7 +42,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7Iw-Bh-kZh">
                                 <rect key="frame" x="221.5" y="52" width="356.5" height="106"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dok-ld-v4u">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Product Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dok-ld-v4u">
                                         <rect key="frame" x="131" y="0.0" width="94.5" height="22.5"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
                                         <color key="textColor" red="0.2274509804" green="0.2666666667" blue="0.36078431370000003" alpha="1" colorSpace="calibratedRGB"/>
